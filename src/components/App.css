@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 60px auto 0 auto;
+    border: 2px solid black;
+}
+
+/*  */
+select,
+.sum,
+.btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    row-gap: 10px;
+    padding: 20px 0 20px 20px;
+}
+
+.select,
+.btn {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #008eff;
+    color: white;
+}
+
+.output {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.out-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.percentTwo {
+    display: none;
+}
