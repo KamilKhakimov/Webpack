@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
+// const CopyPlugin = require('copy-webpack-plugin');
+
 module.exports = (env) => {
     return {
         module: {
@@ -25,6 +27,21 @@ module.exports = (env) => {
         plugins: [
             // new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'index.html') }),
             // new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'vacancy.html') }),
+
+            // new CopyPlugin({
+            //     patterns: [
+            //         {
+            //             from: 'src/components/App.css', to: 'style.css'
+            //         },
+            //     ],
+            // }),
+            // new CopyPlugin({
+            //     patterns: [
+            //         {
+            //             from: 'src/components/vacancy.css', to: 'vacancy.css'
+            //         },
+            //     ],
+            // }),
             new HtmlWebpackPlugin({
                 template: path.resolve(__dirname, 'public', 'index.html'),
                 filename: 'index.html',

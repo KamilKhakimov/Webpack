@@ -1,8 +1,8 @@
-import { calc } from "./test";
+// import { calc } from "./test";
 import './components/App.css';
 
 console.log("Hello World!");
-console.log(calc(5, 6));
+// console.log(calc(5, 6));
 
 function getValue() {
     let select = document.querySelector('.type');
@@ -63,9 +63,7 @@ function getValue() {
     let outDates = document.querySelector('.out-dates');
     outDates.innerHTML = 'В конце срока вы получите сумму: ' + result + ' рублей';
 }
-function getSelect() {
 
-}
 document.querySelector('.btn').addEventListener('click', function () {
     getValue();
 })

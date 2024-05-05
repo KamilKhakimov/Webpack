@@ -52,3 +52,16 @@ select,
 .percentTwo {
     display: none;
 }
+
+.calculator a {
+    color: red;
+    margin-top: 50px;
+}
+
+.vacancy_link {
+    margin-top: 100px;
+}
+
+.vacancy_link a {
+    text-decoration: none;
+}

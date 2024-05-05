@@ -2,3 +2,53 @@ p {
     font-size: 20px;
     color: blue;
 }
+
+h2 {
+    font-size: 30px;
+}
+
+.vacancy a {
+    color: red;
+    margin-top: 50px;
+}
+
+.vacancy {
+    padding: 30px;
+    border: 2px solid red;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.vacancy p {
+    color: black;
+
+}
+
+.worker {
+    font-size: 34px;
+}
+
+.salary {
+    font-size: 24px;
+}
+
+.company,
+.address {
+    font-size: 18px;
+}
+
+.experience {
+    font-size: 22px;
+}
+
+.vacancy_btn {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid green;
+}
+
+.calculator-link a {
+    text-decoration: none;
+}
